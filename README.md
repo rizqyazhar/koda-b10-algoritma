@@ -20,6 +20,22 @@
 4. Jika angka tersebut dibagi 2 sisa baginya tidak sama dengan 0 maka angka tersebut termasuk bilangan ganjil 
 5. Selesai
 
+### Flowchart
+```mermaid
+flowchart TD
+  A@{shape: start, label: "Start"}
+  B@{shape: stop, label: "End"}
+  C@{shape: diam, label: "Angka % 2 === 0"}
+  D@{shape: lean-r, label: "Angka"}
+  E@{shape: rect, label: "Tampilkan Genap"}
+  F@{shape: rect, label: "Tampilkan Ganjil"}
+
+  A --> D --> C --iya--> E 
+  C --tidak--> F
+  E & F --> B
+
+```
+
 ## Membuat algoritma menghitung luas dan keliling lingkaran
 
 ### Deskriptif
