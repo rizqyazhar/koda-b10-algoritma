@@ -17,8 +17,10 @@
 1. Mulai
 2. Input angka yang ingin di cek
 3. Jika angka tersebut dibagi 2 sisa baginya sama dengan 0 maka angka tersebut termasuk bilangan genap
-4. Jika angka tersebut dibagi 2 sisa baginya tidak sama dengan 0 maka angka tersebut termasuk bilangan ganjil 
-5. Selesai
+4. Tampilkan Genap
+5. Jika angka tersebut dibagi 2 sisa baginya tidak sama dengan 0 maka angka tersebut termasuk bilangan ganjil
+6. Tampilkan Ganjil 
+7. Selesai
 
 ### Flowchart
 ```mermaid
