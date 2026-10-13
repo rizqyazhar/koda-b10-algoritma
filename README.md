@@ -29,8 +29,8 @@ flowchart LR
   B@{shape: stop, label: "End"}
   C@{shape: diam, label: "Angka % 2 == 0"}
   D@{shape: lean-r, label: "Angka"}
-  E@{shape: lean-r, label: "Tampilkan Genap"}
-  F@{shape: lean-r, label: "Tampilkan Ganjil"}
+  E@{shape: lean-r, label: "#quot;Genap#quot;"}
+  F@{shape: lean-r, label: "#quot;Ganjil#quot;"}
 
   A --> D --> C --iya--> E 
   C --tidak--> F
@@ -93,9 +93,9 @@ flowchart LR
 
 ```
 DECLARE jariJari : INTEGER
-DECLARE phi : INTEGER
-DECLARE luasLingkaran : INTEGER
-DECLARE kelilingLingkaran : INTEGER
+DECLARE phi : REAL
+DECLARE luasLingkaran : REAL
+DECLARE kelilingLingkaran : REAL
 
 INPUT jariJari
 
