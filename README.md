@@ -27,10 +27,10 @@
 flowchart LR
   A@{shape: start, label: "Start"}
   B@{shape: stop, label: "End"}
-  C@{shape: diam, label: "Angka mod 2 = 0"}
+  C@{shape: diam, label: "Angka % 2 == 0"}
   D@{shape: lean-r, label: "Angka"}
-  E@{shape: rect, label: "Tampilkan Genap"}
-  F@{shape: rect, label: "Tampilkan Ganjil"}
+  E@{shape: lean-r, label: "Tampilkan Genap"}
+  F@{shape: lean-r, label: "Tampilkan Ganjil"}
 
   A --> D --> C --iya--> E 
   C --tidak--> F
