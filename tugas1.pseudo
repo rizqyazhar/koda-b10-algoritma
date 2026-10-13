@@ -13,9 +13,9 @@ ENDIF
 // Menghitung luas dan keliling lingkaran
 
 DECLARE jariJari : INTEGER
-DECLARE phi : INTEGER
-DECLARE luasLingkaran : INTEGER
-DECLARE kelilingLingkaran : INTEGER
+DECLARE phi : REAL
+DECLARE luasLingkaran : REAL
+DECLARE kelilingLingkaran : REAL
 
 INPUT jariJari
 
