@@ -37,6 +37,18 @@ flowchart LR
   E & F --> B
 
 ```
+### Pseudocode
+```
+DECLARE angka : INTEGER
+
+INPUT angka
+
+IF angka MOD 2 = 0 THEN
+  OUTPUT "Genap"
+ELSE
+  OUTPUT "Ganjil"
+ENDIF
+```
 
 ## Membuat algoritma menghitung luas dan keliling lingkaran
 
