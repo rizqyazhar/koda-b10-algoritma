@@ -61,7 +61,7 @@ flowchart LR
   C@{shape: diam, label: "Jari-jari % 7 == 0"}
   D@{shape: lean-r, label: "Jari-jari"}
   E@{shape: lean-r, label: "Tampilkan Luas Lingkaran & Keliling Lingkaran"}
-  F@{shape: rect, label: "Luas Lingkaran = phi x r x r & Keliling Lingkaran = 2 x phi x r"}
+  F@{shape: rect, label: "Luas Lingkaran = phi x Jari-jari x Jari-jari & Keliling Lingkaran = 2 x phi x Jari-jari"}
   G@{shape: rect, label: "phi = 22/7"}
   H@{shape: rect, label: "phi = 3.14"}
 
