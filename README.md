@@ -88,3 +88,26 @@ flowchart LR
   H & I --> F --> G --> E --> J --> B
 
 ```
+
+### Pseudocode
+
+```
+DECLARE jariJari : INTEGER
+DECLARE phi : INTEGER
+DECLARE luasLingkaran : INTEGER
+DECLARE kelilingLingkaran : INTEGER
+
+INPUT jariJari
+
+IF jariJari MOD 7 = 0 THEN
+  phi <- 22/7
+ELSE
+  phi <- 3.14
+ENDIF
+
+luasLingkaran <- phi * jariJari * jariJari
+kelilingLingkaran <- 2 * phi * jariJari
+
+OUTPUT luasLingkaran
+OUTPUT kelilingLingkaran
+```
