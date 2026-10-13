@@ -45,29 +45,34 @@ flowchart LR
 2. Input/masukkan jari-jari lingkaran yang ingin dihitung
 3. Jika jari-jari lingkaran merupakan kelipatan 7
 4. maka phi (π) sama dengan 22/7 
-5. Hitung luas lingkaran dengan rumus 22/7 dikali jari-jari dikali jari-jari dan keliling lingkaran dengan rumus 2 dikali 22/7 dikali jari-jari
-6. Tampilkan hasil luas Lingkaran dan keliling lingkaran
-7. Jika jari-jari lingkaran bukan merupakan kelipatan 7
-8. maka phi (π) sama dengan 3.14
-9. Hitung luas lingkaran dengan rumus 3.14 dikali jari-jari dikali jari-jari dan keliling lingkaran dengan rumus 2 dikali 3.14 dikali jari-jari
-10. Tampilkan hasil luas lingkaran dan keliling lingkaran
-11. Selesai
+5. Hitung luas lingkaran dengan rumus 22/7 dikali jari-jari dikali jari-jari
+6. Hitung keliling lingkaran dengan rumus 2 dikali 22/7 dikali jari-jari
+7. Tampilkan hasil luas Lingkaran
+8. Tampilkan keliling lingkaran
+9. Jika jari-jari lingkaran bukan merupakan kelipatan 7
+10. maka phi (π) sama dengan 3.14
+11. Hitung luas lingkaran dengan rumus 3.14 dikali jari-jari dikali jari-jari
+12. Hitung keliling lingkaran dengan rumus 2 dikali 3.14 dikali jari-jari
+13. Tampilkan hasil luas lingkaran
+14. Tampilkan keliling lingkaran
+15. Selesai
 
 ### Flowchart
 ```mermaid
 flowchart LR
   A@{shape: start, label: "Start"}
   B@{shape: stop, label: "End"}
-  C@{shape: diam, label: "Jari-jari % 7 == 0"}
-  D@{shape: lean-r, label: "Jari-jari"}
-  E@{shape: lean-r, label: "Tampilkan Luas Lingkaran & Keliling Lingkaran"}
-  F@{shape: rect, label: "Luas Lingkaran = phi x Jari-jari x Jari-jari & Keliling Lingkaran = 2 x phi x Jari-jari"}
-  G@{shape: rect, label: "phi = 22/7"}
-  H@{shape: rect, label: "phi = 3.14"}
+  C@{shape: diam, label: "jariJari % 7 == 0"}
+  D@{shape: lean-r, label: "jariJari"}
+  E@{shape: lean-r, label: "luasLingkaran"}
+  J@{shape: lean-r, label: "kelilingLingkaran"}
+  F@{shape: rect, label: "luasLingkaran = phi x jariJari x jariJari"}
+  G@{shape: rect, label: "kelilingLingkaran = 2 x phi x jariJari"}
+  H@{shape: rect, label: "phi = 22/7"}
+  I@{shape: rect, label: "phi = 3.14"}
 
-  A --> D --> C --iya--> G
-  C --tidak--> H
-  G & H --> F --> E
-  E --> B
+  A --> D --> C --iya--> H 
+  C --tidak--> I
+  H & I --> F --> G --> E --> J --> B
 
 ```
