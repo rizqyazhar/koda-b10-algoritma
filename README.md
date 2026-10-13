@@ -1,4 +1,4 @@
-#Minitask Algoritma 1
+# Minitask Algoritma 1
 
 Membuat algoritma memindahkan air di dalam gelas
 
