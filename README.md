@@ -27,8 +27,8 @@
 flowchart LR
   A@{shape: start, label: "Start"}
   B@{shape: stop, label: "End"}
-  C@{shape: diam, label: "Angka % 2 == 0"}
-  D@{shape: lean-r, label: "Angka"}
+  C@{shape: diam, label: "angka % 2 == 0"}
+  D@{shape: lean-r, label: "angka"}
   E@{shape: lean-r, label: "#quot;Genap#quot;"}
   F@{shape: lean-r, label: "#quot;Ganjil#quot;"}
 
