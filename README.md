@@ -24,7 +24,7 @@
 
 ### Flowchart
 ```mermaid
-flowchart TD
+flowchart LR
   A@{shape: start, label: "Start"}
   B@{shape: stop, label: "End"}
   C@{shape: diam, label: "Angka % 2 === 0"}
